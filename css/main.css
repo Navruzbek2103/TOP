@@ -485,6 +485,9 @@ ol {
 /* Format section end */
 
 /* Statistics section start */
+.statistics{
+  margin-bottom: 100px;
+}
 .statistics-container-big {
   padding: 100px 0;
   background-color: #4456f4;
