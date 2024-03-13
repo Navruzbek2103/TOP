@@ -186,11 +186,11 @@ ol {
   margin-top: 926px;
 }
 
-.chance-container-big{
-  border: 1px solid red;
+.chance-container-big {
+  /* border: 1px solid red; */
   background-image: url("./../images/money-hand.png");
   background-repeat: no-repeat;
-  background-position: right 10px ;
+  background-position: right 10px;
   padding-bottom: 200px;
   background-size: auto;
 }
@@ -225,7 +225,7 @@ ol {
   padding-left: 66px;
 }
 
-.chance-wrapper-item:first-child{
+.chance-wrapper-item:first-child {
   width: 95%;
 }
 
@@ -254,6 +254,194 @@ ol {
 
 /* Chance section end */
 
+/* Offer section start */
+.offer-wrapper {
+  margin-bottom: 200px;
+}
+
+.offer-wrapper-titleBox {
+  max-width: 734px;
+  width: 100%;
+  margin-bottom: 120px;
+}
+
+.offer-wrapper-titleBox-title {
+  font-family: "TT Hoves Pro Trial", sans-serif;
+  font-weight: 600;
+  font-size: 62px;
+  line-height: 68px;
+}
+
+.offer-wrapper-list {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.offer-wrapper-item {
+  max-width: 345.3px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.offer-wrapper-item-imgBox {
+  position: relative;
+  margin-bottom: 68px;
+  width: 197px;
+  height: 200px;
+  border-radius: 50%;
+  /* overflow: hidden; */
+}
+
+.offer-wrapper-item-imgBox::after {
+  position: absolute;
+  top: 0;
+  right: 15.58px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  border: 5px solid #fff;
+  background-color: #4456f4;
+  font-family: "TT Hoves Pro Trial", sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 26px;
+  z-index: 999999;
+  text-align: center;
+  color: #fff !important;
+  border-radius: 50%;
+}
+.offer-wrapper-item:nth-child(1) .offer-wrapper-item-imgBox::after{
+  content: "1";
+}
+.offer-wrapper-item:nth-child(2) .offer-wrapper-item-imgBox::after{
+  content: "2";
+}
+.offer-wrapper-item:nth-child(3) .offer-wrapper-item-imgBox::after{
+  content: "3";
+}
+
+.offer-wrapper-item-imgBox-img {
+  /* width: 100%;
+  height: 100%; */
+   width: 197px;
+   height: 197px;
+   border-radius: 50%;
+}
+
+.offer-wrapper-item-desc {
+  font-family: "TT Hoves Pro Trial", sans-serif;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 33.8px;
+  color: #000;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  line-clamp: 4;
+  -webkit-box-orient: vertical;
+}
+
+/* Offer section end */
+
+/* Induction section start */
+
+.induction-wrapper{
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.induction-wrapper-content{
+  max-width: 683px;
+  width: 100%;
+}
+
+.induction-wrapper-content-title{
+  margin-bottom: 80px;
+  font-family: "TT Hoves Pro Trial", sans-serif;
+  font-weight: 600;
+  font-size: 62px;
+  line-height: 68px;
+  color: #000;
+}
+
+.induction-wrapper-content p{
+  font-family: "TT Hoves Pro Trial", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 31px;
+  color: #000;
+}
+
+.induction-wrapper-content-textOne{
+  margin-bottom: 25px;
+}
+
+.induction-wrapper-content-textOne-span{
+  font-weight: 600;
+}
+
+.induction-wrapper-content-textTwo{
+  font-weight: 600 !important;
+  margin-bottom: 25px;
+}
+
+.induction-wrapper-content-textThree{
+  margin-bottom: 25px;
+}
+
+.induction-wrapper-img{
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+  margin-top: 130px;
+}
+
+
+
+/* Induction section end */
+
 /* section start */
+/* section end */
+
 /* section start */
+/* section end */
+
+/* section start */
+/* section end */
+
+
+/* section start */
+/* section end */
+
+/* section start */
+/* section end */
+
+/* section start */
+/* section end */
+
+/* section start */
+/* section end */
+
+
+/* section start */
+/* section end */
+
+/* section start */
+/* section end */
+
+/* section start */
+/* section end */
+
+/* section start */
+/* section end */
+
+
+
 /* MAIN END */
