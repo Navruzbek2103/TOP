@@ -1,10 +1,10 @@
-@font-face {
+/* @font-face {
   font-display: swap;
   font-family: "TT Hoves Pro Trial", sans-serif;
   font-style: normal;
   font-weight: 600;
   src: url("./../fonts/TT-Hoves-Pro-Trial-DemiBold.ttf");
-}
+} */
 
 *,
 *::before,
@@ -21,6 +21,7 @@ html {
 }
 body {
   margin: 0 0 100px; /* bottom = footer height */
+  font-family: "TT Hoves Pro Trial", sans-serif;
   font-weight: 400;
   font-size: 16px;
 }
@@ -54,7 +55,13 @@ a {
   text-decoration: none;
 }
 
-h1, h2, h3, h4, h5, h6, p{
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
   margin: 0;
 }
 
@@ -64,6 +71,8 @@ ol {
   padding: 0;
   list-style: none;
 }
+
+/* HEADER START */
 
 .nav {
   padding: 100px 0;
@@ -76,3 +85,110 @@ ol {
   font-size: 20px;
   line-height: 22px;
 }
+
+/* HEADER END */
+
+/* MAIN END */
+
+/* Intro section start */
+.intro-container-big {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  /* border: 1px solid red; */
+}
+.intro-inner{
+  position: relative;
+  padding: 360px 0 200px;
+  /* border: 1px solid red; */
+}
+
+.intro-inner::before{
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: inline-block;
+  width: 630px;
+  /* width: 764px; */
+  height: 764px;
+  background-image: url("./../images/circle-1.png");
+  background-repeat: no-repeat;
+  background-size: auto;
+  /* border: 1px solid red; */
+}
+
+.intro-inner::after{
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  display: inline-block;
+  width: 505px;
+  /* width: 764px; */
+  height: 634px;
+  /* border: 1px solid red; */
+  background-image: url("./../images/circle-2.png");
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+
+
+.intro-wrapper-img {
+  width: 724px;
+  height: 131px;
+  margin: 0 auto;
+  display: flex;
+  margin-bottom: 228px;
+}
+
+.intro-wrapper-contentBox {
+  position: relative;
+  max-width: 530px;
+  width: 100%;
+  /* border: 1px solid red; */
+  margin-bottom: 111px;
+  margin-left: auto;
+}
+.intro-wrapper-contentBox::after{
+  content: "";
+  display: inline-block;
+  position: absolute;
+  top: 106px;
+  left: 46px;
+  background-image: url("./../images/hero-decor.png");
+  background-repeat: no-repeat;
+  width: 376px;
+  height: 30.24px;
+}
+
+.intro-wrapper-contentBox-title {
+  font-family: "TT Hoves Pro Trial", sans-serif;
+  font-weight: 600;
+  font-size: 44px;
+  line-height: 48px;
+  /* letter-spacing: -2%; */
+  color: #000000;
+}
+
+.intro-wrapper-text{
+  font-family: "TT Hoves Pro Trial", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 22px;
+  text-transform: uppercase;
+  /* letter-spacing: -2%; */
+}
+
+
+
+
+/* Intro section end */
+
+/* section start */
+/* section start */
+/* section start */
+/* section start */
+/* MAIN END */
