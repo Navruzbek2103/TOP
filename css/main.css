@@ -3690,3 +3690,531 @@ ol {
 
   /* Offer section end */
 }
+
+/* Induction section */
+@media only screen and (max-width: 1200px) {
+  /* Induction section start */
+
+  /* .induction-wrapper {
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: space-between;
+  } */
+
+  .induction-wrapper-content {
+    max-width: 653px;
+    /* width: 100%; */
+  }
+
+  /* .induction-wrapper-content-title { */
+  /* margin-bottom: 74px; */
+  /* font-family: "TT Hoves Pro Trial", sans-serif; */
+  /* font-weight: 600; */
+  /* font-size: 54px;
+    line-height: 60px; */
+  /* color: #000; */
+  /* } */
+
+  /* .induction-wrapper-content p {
+    font-family: "TT Hoves Pro Trial", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 31px;
+    color: #000;
+  } */
+
+  /* .induction-wrapper-content-textOne {
+    margin-bottom: 25px;
+  } */
+
+  /* .induction-wrapper-content-textOne-span {
+    font-weight: 600;
+  } */
+
+  /* .induction-wrapper-content-textTwo {
+    font-weight: 600 !important;
+    margin-bottom: 25px;
+  } */
+
+  /* .induction-wrapper-content-textThree {
+    margin-bottom: 25px;
+  } */
+
+  .induction-wrapper-img {
+    width: 385px;
+    height: 385px;
+    /* border-radius: 50%; */
+    /* margin-top: 130px; */
+  }
+  /* Induction section end */
+}
+
+@media only screen and (max-width: 1100px) {
+  /* Induction section start */
+
+  /* .induction-wrapper {
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: space-between;
+  } */
+
+  .induction-wrapper-content {
+    max-width: 600px;
+    /* width: 100%; */
+  }
+
+  .induction-wrapper-content-title {
+    margin-bottom: 74px;
+    /* font-family: "TT Hoves Pro Trial", sans-serif; */
+    /* font-weight: 600; */
+    font-size: 54px;
+    line-height: 60px;
+    /* color: #000; */
+  }
+
+  .induction-wrapper-content p {
+    /* font-family: "TT Hoves Pro Trial", sans-serif;
+    font-weight: 400; */
+    font-size: 22px;
+    line-height: 28px;
+    /* color: #000; */
+  }
+
+  /* .induction-wrapper-content-textOne {
+    margin-bottom: 25px;
+  } */
+
+  /* .induction-wrapper-content-textOne-span {
+    font-weight: 600;
+  } */
+
+  /* .induction-wrapper-content-textTwo {
+    font-weight: 600 !important;
+    margin-bottom: 25px;
+  } */
+
+  /* .induction-wrapper-content-textThree {
+    margin-bottom: 25px;
+  } */
+
+  .induction-wrapper-img {
+    width: 370px;
+    height: 370px;
+    /* border-radius: 50%; */
+    /* margin-top: 130px; */
+  }
+  /* Induction section end */
+}
+
+@media only screen and (max-width: 992px) {
+  /* Induction section start */
+
+  .induction-wrapper {
+    margin-bottom: 95px;
+    /* display: flex;
+    justify-content: space-between; */
+  }
+
+  .induction-wrapper-content {
+    max-width: 540px;
+    /* width: 100%; */
+  }
+
+  .induction-wrapper-content-title {
+    margin-bottom: 65px;
+    /* font-family: "TT Hoves Pro Trial", sans-serif; */
+    /* font-weight: 600; */
+    /* font-size: 54px;
+    line-height: 60px; */
+    /* color: #000; */
+  }
+
+  /* .induction-wrapper-content p { */
+  /* font-family: "TT Hoves Pro Trial", sans-serif;
+    font-weight: 400; */
+  /* font-size: 22px;
+    line-height: 28px; */
+  /* color: #000; */
+  /* } */
+
+  /* .induction-wrapper-content-textOne {
+    margin-bottom: 25px;
+  } */
+
+  /* .induction-wrapper-content-textOne-span {
+    font-weight: 600;
+  } */
+
+  /* .induction-wrapper-content-textTwo {
+    font-weight: 600 !important;
+    margin-bottom: 25px;
+  } */
+
+  /* .induction-wrapper-content-textThree {
+    margin-bottom: 25px;
+  } */
+
+  .induction-wrapper-img {
+    width: 320px;
+    height: 320px;
+    /* border-radius: 50%; */
+    /* margin-top: 130px; */
+  }
+  /* Induction section end */
+}
+
+@media only screen and (max-width: 850px) {
+  /* Induction section start */
+
+  /* .induction-wrapper {
+    margin-bottom: 95px; */
+  /* display: flex;
+    justify-content: space-between; */
+  /* } */
+
+  .induction-wrapper-content {
+    max-width: 460px;
+    /* width: 100%; */
+  }
+
+  /* .induction-wrapper-content-title {
+    margin-bottom: 65px; */
+  /* font-family: "TT Hoves Pro Trial", sans-serif; */
+  /* font-weight: 600; */
+  /* font-size: 54px;
+    line-height: 60px; */
+  /* color: #000; */
+  /* } */
+
+  .induction-wrapper-content p {
+    /* font-family: "TT Hoves Pro Trial", sans-serif;
+    font-weight: 400; */
+    font-size: 16px;
+    line-height: 23px;
+    /* color: #000; */
+  }
+
+  /* .induction-wrapper-content-textOne {
+    margin-bottom: 25px;
+  } */
+
+  /* .induction-wrapper-content-textOne-span {
+    font-weight: 600;
+  } */
+
+  /* .induction-wrapper-content-textTwo {
+    font-weight: 600 !important;
+    margin-bottom: 25px;
+  } */
+
+  /* .induction-wrapper-content-textThree {
+    margin-bottom: 25px;
+  } */
+
+  .induction-wrapper-img {
+    width: 260px;
+    height: 260px;
+    /* border-radius: 50%; */
+    /* margin-top: 130px; */
+  }
+  /* Induction section end */
+}
+
+@media only screen and (max-width: 850px) {
+  /* Induction section start */
+
+  .induction-wrapper {
+    /* margin-bottom: 95px; */
+    gap: 10px;
+    /* display: flex;
+    justify-content: space-between; */
+  }
+
+  .induction-wrapper-content {
+    max-width: 460px;
+    /* width: 100%; */
+  }
+
+  /* .induction-wrapper-content-title {
+    margin-bottom: 65px; */
+  /* font-family: "TT Hoves Pro Trial", sans-serif; */
+  /* font-weight: 600; */
+  /* font-size: 54px;
+    line-height: 60px; */
+  /* color: #000; */
+  /* } */
+
+  .induction-wrapper-content p {
+    /* font-family: "TT Hoves Pro Trial", sans-serif;
+    font-weight: 400; */
+    font-size: 16px;
+    line-height: 23px;
+    /* color: #000; */
+  }
+
+  /* .induction-wrapper-content-textOne {
+    margin-bottom: 25px;
+  } */
+
+  /* .induction-wrapper-content-textOne-span {
+    font-weight: 600;
+  } */
+
+  /* .induction-wrapper-content-textTwo {
+    font-weight: 600 !important;
+    margin-bottom: 25px;
+  } */
+
+  /* .induction-wrapper-content-textThree {
+    margin-bottom: 25px;
+  } */
+
+  .induction-wrapper-img {
+    width: 260px;
+    height: 260px;
+    /* border-radius: 50%; */
+    /* margin-top: 130px; */
+  }
+  /* Induction section end */
+}
+
+@media only screen and (max-width: 700px) {
+  /* Induction section start */
+
+  .induction-wrapper {
+    margin-bottom: 90px;
+    gap: 0px;
+    flex-wrap: wrap;
+    /* display: flex;
+    justify-content: space-between; */
+  }
+
+  .induction-wrapper-content {
+    max-width: 100%;
+    /* width: 100%; */
+  }
+
+  /* .induction-wrapper-content-title {
+    margin-bottom: 65px; */
+  /* font-family: "TT Hoves Pro Trial", sans-serif; */
+  /* font-weight: 600; */
+  /* font-size: 54px;
+    line-height: 60px; */
+  /* color: #000; */
+  /* } */
+
+  .induction-wrapper-content p {
+    /* font-family: "TT Hoves Pro Trial", sans-serif;
+    font-weight: 400; */
+    font-size: 20px;
+    line-height: 27px;
+    /* color: #000; */
+  }
+
+  /* .induction-wrapper-content-textOne {
+    margin-bottom: 25px;
+  } */
+
+  /* .induction-wrapper-content-textOne-span {
+    font-weight: 600;
+  } */
+
+  /* .induction-wrapper-content-textTwo {
+    font-weight: 600 !important;
+    margin-bottom: 25px;
+  } */
+
+  /* .induction-wrapper-content-textThree {
+    margin-bottom: 25px;
+  } */
+
+  .induction-wrapper-img {
+    width: 300px;
+    height: 300px;
+    order: -1;
+    margin: 0 auto 32px;
+    /* border-radius: 50%; */
+  }
+  /* Induction section end */
+}
+
+@media only screen and (max-width: 576px) {
+  /* Induction section start */
+
+  .induction-wrapper {
+    margin-bottom: 88px;
+    /* gap: 0px; */
+    /* flex-wrap: wrap; */
+    /* display: flex;
+    justify-content: space-between; */
+  }
+
+  /* .induction-wrapper-content { */
+  /* max-width: 100%; */
+  /* width: 100%; */
+  /* } */
+
+  .induction-wrapper-content-title {
+    margin-bottom: 45px;
+    /* font-family: "TT Hoves Pro Trial", sans-serif; */
+    /* font-weight: 600; */
+    font-size: 40px;
+    line-height: 48px;
+    /* color: #000; */
+  }
+
+  .induction-wrapper-content p {
+    /* font-family: "TT Hoves Pro Trial", sans-serif;
+    font-weight: 400; */
+    font-size: 17px;
+    line-height: 24px;
+    /* color: #000; */
+  }
+
+  .induction-wrapper-content-textOne {
+    margin-bottom: 18px;
+  }
+
+  .induction-wrapper-content-textOne-span {
+    font-weight: 600;
+  }
+
+  .induction-wrapper-content-textTwo {
+    /* font-weight: 600 !important; */
+    margin-bottom: 18px;
+  }
+
+  .induction-wrapper-content-textThree {
+    margin-bottom: 18px;
+  }
+
+  .induction-wrapper-img {
+    width: 270px;
+    height: 270px;
+    /* order: -1;
+    margin: 0 auto 32px; */
+    /* border-radius: 50%; */
+  }
+  /* Induction section end */
+}
+
+@media only screen and (max-width: 450px) {
+  /* Induction section start */
+
+  .induction-wrapper {
+    margin-bottom: 85px;
+    /* gap: 0px; */
+    /* flex-wrap: wrap; */
+    /* display: flex;
+    justify-content: space-between; */
+  }
+
+  /* .induction-wrapper-content { */
+  /* max-width: 100%; */
+  /* width: 100%; */
+  /* } */
+
+  .induction-wrapper-content-title {
+    margin-bottom: 35px;
+    /* font-family: "TT Hoves Pro Trial", sans-serif; */
+    /* font-weight: 600; */
+    font-size: 30px;
+    line-height: 38px;
+    /* color: #000; */
+  }
+
+  .induction-wrapper-content p {
+    /* font-family: "TT Hoves Pro Trial", sans-serif;
+    font-weight: 400; */
+    font-size: 16px;
+    line-height: 21px;
+    /* color: #000; */
+  }
+
+  .induction-wrapper-content-textOne {
+    margin-bottom: 15px;
+  }
+
+  /* .induction-wrapper-content-textOne-span {
+    font-weight: 600;
+  } */
+
+  .induction-wrapper-content-textTwo {
+    /* font-weight: 600 !important; */
+    margin-bottom: 15px;
+  }
+
+  .induction-wrapper-content-textThree {
+    margin-bottom: 15px;
+  }
+
+  .induction-wrapper-img {
+    width: 252px;
+    height: 252px;
+    /* order: -1;
+    margin: 0 auto 32px; */
+    /* border-radius: 50%; */
+  }
+  /* Induction section end */
+}
+
+@media only screen and (max-width: 375px) {
+  /* Induction section start */
+
+  .induction-wrapper {
+    margin-bottom: 80px;
+    /* gap: 0px; */
+    /* flex-wrap: wrap; */
+    /* display: flex;
+    justify-content: space-between; */
+  }
+
+  /* .induction-wrapper-content { */
+  /* max-width: 100%; */
+  /* width: 100%; */
+  /* } */
+
+  .induction-wrapper-content-title {
+    margin-bottom: 24px;
+    /* font-family: "TT Hoves Pro Trial", sans-serif; */
+    /* font-weight: 600; */
+    font-size: 22px;
+    line-height: 24px;
+    /* color: #000; */
+  }
+
+  .induction-wrapper-content p {
+    /* font-family: "TT Hoves Pro Trial", sans-serif;
+    font-weight: 400; */
+    font-size: 14px;
+    line-height: 18px;
+    /* text-align: justify; */
+    /* color: #000; */
+  }
+
+  /* .induction-wrapper-content-textOne { */
+    /* margin-bottom: 15px; */
+  /* } */
+
+  /* .induction-wrapper-content-textOne-span {
+    font-weight: 600;
+  } */
+
+  /* .induction-wrapper-content-textTwo { */
+    /* font-weight: 600 !important; */
+    /* margin-bottom: 15px; */
+  /* } */
+
+  /* .induction-wrapper-content-textThree { */
+    /* margin-bottom: 15px; */
+  /* } */
+
+  .induction-wrapper-img {
+    width: 100%;
+    height: 100%;
+    /* order: -1;
+    margin: 0 auto 32px; */
+    /* border-radius: 50%; */
+  }
+  /* Induction section end */
+}
