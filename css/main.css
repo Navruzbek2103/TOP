@@ -578,6 +578,11 @@ ol {
   color: #000;
   margin-bottom: 76px;
   letter-spacing: -2px;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  line-clamp: 3;
+  -webkit-box-orient: vertical;
 }
 
 .status-content-title-span {
@@ -4866,19 +4871,19 @@ ol {
   }
 
   /* .statistics-wrapper-item-subtitle { */
-    /* font-family: "TT Hoves Pro Trial", sans-serif; */
-    /* font-weight: 400; */
-    /* font-size: 65px; */
-    /* color: #fff; */
-    /* margin-bottom: 2px; */
+  /* font-family: "TT Hoves Pro Trial", sans-serif; */
+  /* font-weight: 400; */
+  /* font-size: 65px; */
+  /* color: #fff; */
+  /* margin-bottom: 2px; */
   /* } */
 
   /* .statistics-wrapper-item-desc { */
-    /* font-family: "TT Hoves Pro Trial", sans-serif;
+  /* font-family: "TT Hoves Pro Trial", sans-serif;
     font-weight: 400; */
-    /* font-size: 16px; */
-    /* line-height: 22px; */
-    /* color: #fff; */
+  /* font-size: 16px; */
+  /* line-height: 22px; */
+  /* color: #fff; */
   /* } */
 
   /* Statistics section end */
@@ -4921,30 +4926,1051 @@ ol {
   }
 
   /* .statistics-wrapper-item:last-child { */
-    /* border-left: 1px solid #fff; */
-    /* padding-left: 30px;
+  /* border-left: 1px solid #fff; */
+  /* padding-left: 30px;
   } */
 
   /* .statistics-wrapper-item-subtitle { */
-    /* font-family: "TT Hoves Pro Trial", sans-serif; */
-    /* font-weight: 400; */
-    /* font-size: 65px; */
-    /* color: #fff; */
-    /* margin-bottom: 2px; */
+  /* font-family: "TT Hoves Pro Trial", sans-serif; */
+  /* font-weight: 400; */
+  /* font-size: 65px; */
+  /* color: #fff; */
+  /* margin-bottom: 2px; */
   /* } */
 
   /* .statistics-wrapper-item-desc { */
-    /* font-family: "TT Hoves Pro Trial", sans-serif;
+  /* font-family: "TT Hoves Pro Trial", sans-serif;
     font-weight: 400; */
-    /* font-size: 16px; */
-    /* line-height: 22px; */
-    /* color: #fff; */
+  /* font-size: 16px; */
+  /* line-height: 22px; */
+  /* color: #fff; */
   /* } */
 
   /* Statistics section end */
 }
 
 /* Status section */
+@media only screen and (max-width: 1150px) {
+  /* Status section start */
+
+  .status-list {
+    /* display: flex; */
+    /* flex-direction: column; */
+    gap: 110px;
+    margin-bottom: 160px;
+  }
+
+  .status-item-keys {
+    /* font-family: "TT Hoves Pro Trial", sans-serif; */
+    /* font-weight: 600; */
+    font-size: 20px;
+    line-height: 24px;
+    /* color: #2741ea; */
+    padding: 10px 25px;
+    /* background: #2741ea1a; */
+    /* border-radius: 10px; */
+    /* display: inline-block; */
+    margin-bottom: 28px;
+  }
+
+  /* .status-item-wrapper { */
+  /* width: 100%; */
+  /* display: flex; */
+  /* justify-content: space-between; */
+  /* gap: 10px; */
+  /* align-items: flex-start; */
+  /* } */
+
+  .status-content {
+    max-width: 1000px;
+    /* width: 100%; */
+    /* border: 1px solid red; */
+  }
+
+  .status-content-title {
+    /* font-family: "TT Hoves Pro Trial", sans-serif; */
+    /* font-weight: 600; */
+    /* font-size: 54px;
+    line-height: 59px; */
+    /* color: #000; */
+    margin-bottom: 68px;
+    /* letter-spacing: -2px; */
+  }
+
+  /* .status-content-title-span {
+    color: #2741ea;
+  } */
+
+  .status-content-imgBox {
+    width: 100%;
+    overflow: hidden;
+    /* display: flex; */
+    /* justify-content: space-between; */
+    gap: 15px;
+    margin-bottom: 50px;
+  }
+
+  .status-content-imgBox-firstImg:first-child {
+    width: 500px;
+    /* border: 1px solid red; */
+  }
+  .status-content-imgBox-firstImg:last-child {
+    width: 480px;
+    /* border: 1px solid red; */
+  }
+
+  .status-content-list {
+    max-width: 980px;
+    /* width: 100%; */
+    /* display: flex; */
+    /* gap: 10px; */
+    /* border: 1px solid red; */
+    /* justify-content: space-between; */
+  }
+
+  .status-content-item {
+    max-width: calc((100% / 3) - 128px);
+    /* width: 100%; */
+    /* height: 148px; */
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content: space-between; */
+  }
+
+  /* .status-content-item:nth-child(2) {
+    max-width: 320px;
+  } */
+
+  .status-content-item-desc {
+    /* font-family: "TT Hoves Pro Trial", sans-serif; */
+    /* font-weight: 400; */
+    /* font-size: 24px; */
+    margin-bottom: 21px;
+    /* line-height: 28.8px; */
+    /* overflow: hidden; */
+    /* display: -webkit-box;
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
+    -webkit-box-orient: vertical;
+    color: #302f2f; */
+  }
+
+  /* .status-content-item-number { */
+  /* font-family: "TT Hoves Pro Trial", sans-serif; */
+  /* font-weight: 600; */
+  /* font-size: 54px;
+    line-height: 65px; */
+  /* color: #1ac160; */
+  /* } */
+
+  /* .status-text { */
+  /* width: 43px; */
+  /* transform: rotate(-90deg); */
+  /* display: flex; */
+  /* font-family: "TT Hoves Pro Trial", sans-serif; */
+  /* align-items: center; */
+  /* font-weight: 600; */
+  /* font-size: 36px;
+    line-height: 43px; */
+  /* color: #2741ea; */
+  /* margin-top: 256px; */
+  /* white-space: nowrap; */
+  /* } */
+
+  /* .status-item:nth-child(4) .status-text {
+    margin-top: 330px;
+  } */
+
+  /* .status-text-img {
+    margin-left: 8px;
+    width: 24px;
+    height: 24px;
+  } */
+
+  /* Status section end */
+}
+@media only screen and (max-width: 1080px) {
+  /* Status section start */
+
+  .status-list {
+    /* display: flex; */
+    /* flex-direction: column; */
+    gap: 105px;
+    margin-bottom: 155px;
+  }
+
+  /* .status-item-keys { */
+  /* font-family: "TT Hoves Pro Trial", sans-serif; */
+  /* font-weight: 600; */
+  /* font-size: 20px;
+    line-height: 24px; */
+  /* color: #2741ea; */
+  /* padding: 10px 25px; */
+  /* background: #2741ea1a; */
+  /* border-radius: 10px; */
+  /* display: inline-block; */
+  /* margin-bottom: 28px;
+  } */
+
+  /* .status-item-wrapper { */
+  /* width: 100%; */
+  /* display: flex; */
+  /* justify-content: space-between; */
+  /* gap: 10px; */
+  /* align-items: flex-start; */
+  /* } */
+
+  .status-content {
+    max-width: 940px;
+    /* width: 100%; */
+    /* border: 1px solid red; */
+  }
+
+  .status-content-title {
+    /* font-family: "TT Hoves Pro Trial", sans-serif; */
+    /* font-weight: 600; */
+    font-size: 42px;
+    line-height: 50px;
+    /* color: #000; */
+    margin-bottom: 60px;
+    /* letter-spacing: -2px; */
+  }
+
+  /* .status-content-title-span {
+    color: #2741ea;
+  } */
+
+  .status-content-imgBox {
+    /* width: 100%; */
+    /* overflow: hidden; */
+    /* display: flex; */
+    /* justify-content: space-between; */
+    gap: 12px;
+    margin-bottom: 48px;
+  }
+
+  .status-content-imgBox-firstImg:first-child {
+    width: 470px;
+    /* border: 1px solid red; */
+  }
+  .status-content-imgBox-firstImg:last-child {
+    width: 455px;
+    /* border: 1px solid red; */
+  }
+
+  .status-content-list {
+    max-width: 940px;
+    /* width: 100%; */
+    /* display: flex; */
+    /* gap: 10px; */
+    /* border: 1px solid red; */
+    /* justify-content: space-between; */
+  }
+
+  .status-content-item {
+    max-width: calc((100% / 3) - 90px);
+    /* width: 100%; */
+    height: 145px;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content: space-between; */
+  }
+
+  /* .status-content-item:nth-child(2) {
+    max-width: 320px;
+  } */
+
+  .status-content-item-desc {
+    /* font-family: "TT Hoves Pro Trial", sans-serif; */
+    /* font-weight: 400; */
+    margin-bottom: 21px;
+    font-size: 22px;
+    line-height: 28px;
+    /* overflow: hidden; */
+    /* display: -webkit-box;
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
+    -webkit-box-orient: vertical;
+    color: #302f2f; */
+  }
+
+  .status-content-item-number {
+    /* font-family: "TT Hoves Pro Trial", sans-serif; */
+    /* font-weight: 600; */
+    font-size: 44px;
+    line-height: 51px;
+    /* color: #1ac160; */
+  }
+
+  /* .status-text { */
+  /* width: 43px; */
+  /* transform: rotate(-90deg); */
+  /* display: flex; */
+  /* font-family: "TT Hoves Pro Trial", sans-serif; */
+  /* align-items: center; */
+  /* font-weight: 600; */
+  /* font-size: 36px;
+    line-height: 43px; */
+  /* color: #2741ea; */
+  /* margin-top: 256px; */
+  /* white-space: nowrap; */
+  /* } */
+
+  /* .status-item:nth-child(4) .status-text {
+    margin-top: 330px;
+  } */
+
+  /* .status-text-img {
+    margin-left: 8px;
+    width: 24px;
+    height: 24px;
+  } */
+
+  /* Status section end */
+}
+
+@media only screen and (max-width: 1020px) {
+  /* Status section start */
+
+  .status-list {
+    /* display: flex; */
+    /* flex-direction: column; */
+    gap: 100px;
+    margin-bottom: 135px;
+  }
+
+  /* .status-item-keys { */
+  /* font-family: "TT Hoves Pro Trial", sans-serif; */
+  /* font-weight: 600; */
+  /* font-size: 20px;
+    line-height: 24px; */
+  /* color: #2741ea; */
+  /* padding: 10px 25px; */
+  /* background: #2741ea1a; */
+  /* border-radius: 10px; */
+  /* display: inline-block; */
+  /* margin-bottom: 28px;
+  } */
+
+  /* .status-item-wrapper { */
+  /* width: 100%; */
+  /* display: flex; */
+  /* justify-content: space-between; */
+  /* gap: 10px; */
+  /* align-items: flex-start; */
+  /* } */
+
+  .status-content {
+    max-width: 890px;
+    /* width: 100%; */
+    /* border: 1px solid red; */
+  }
+
+  .status-content-title {
+    /* font-family: "TT Hoves Pro Trial", sans-serif; */
+    /* font-weight: 600; */
+    /* font-size: 42px;
+    line-height: 50px; */
+    /* color: #000; */
+    margin-bottom: 55px;
+    /* letter-spacing: -2px; */
+  }
+
+  /* .status-content-title-span {
+    color: #2741ea;
+  } */
+
+  .status-content-imgBox {
+    /* width: 100%; */
+    /* overflow: hidden; */
+    /* display: flex; */
+    /* justify-content: space-between; */
+    gap: 10px;
+    margin-bottom: 45px;
+  }
+
+  .status-content-imgBox-firstImg:first-child {
+    width: 450px;
+    /* border: 1px solid red; */
+  }
+  .status-content-imgBox-firstImg:last-child {
+    width: 430px;
+    /* border: 1px solid red; */
+  }
+
+  .status-content-list {
+    max-width: 100%;
+    /* width: 100%; */
+    /* display: flex; */
+    /* gap: 10px; */
+    /* border: 1px solid red; */
+    /* justify-content: space-between; */
+  }
+
+  .status-content-item {
+    max-width: calc((100% / 3) - 70px);
+    /* width: 100%; */
+    height: 145px;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content: space-between; */
+  }
+
+  /* .status-content-item:nth-child(2) {
+    max-width: 320px;
+  } */
+
+  .status-content-item-desc {
+    /* font-family: "TT Hoves Pro Trial", sans-serif; */
+    /* font-weight: 400; */
+    margin-bottom: 19px;
+    /* font-size: 22px;
+    line-height: 28px; */
+    /* overflow: hidden; */
+    /* display: -webkit-box;
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
+    -webkit-box-orient: vertical;
+    color: #302f2f; */
+  }
+
+  /* .status-content-item-number { */
+  /* font-family: "TT Hoves Pro Trial", sans-serif; */
+  /* font-weight: 600; */
+  /* font-size: 44px;
+    line-height: 51px; */
+  /* color: #1ac160; */
+  /* } */
+
+  .status-text {
+    /* width: 43px; */
+    /* transform: rotate(-90deg); */
+    /* display: flex; */
+    /* font-family: "TT Hoves Pro Trial", sans-serif; */
+    /* align-items: center; */
+    /* font-weight: 600; */
+    font-size: 30px;
+    line-height: 43px;
+    /* color: #2741ea; */
+    margin-top: 220px;
+    /* white-space: nowrap; */
+  }
+
+  .status-item:nth-child(4) .status-text {
+    margin-top: 275px;
+  }
+
+  /* .status-text-img {
+    margin-left: 8px;
+    width: 24px;
+    height: 24px;
+  } */
+
+  /* Status section end */
+}
+
+@media only screen and (max-width: 970px) {
+  /* Status section start */
+
+  .status-list {
+    /* display: flex; */
+    /* flex-direction: column; */
+    gap: 95px;
+    margin-bottom: 125px;
+  }
+
+  .status-item {
+    position: relative;
+    /* border: 1px solid red; */
+  }
+
+  .status-item-keys {
+    /* font-family: "TT Hoves Pro Trial", sans-serif; */
+    /* font-weight: 600; */
+    /* font-size: 18px;
+    line-height: 24px; */
+    /* color: #2741ea; */
+    /* padding: 10px 23px; */
+    /* background: #2741ea1a; */
+    /* border-radius: 10px; */
+    /* display: inline-block; */
+    margin-bottom: 22px;
+  }
+
+  .status-item-wrapper {
+    /* width: 100%; */
+    /* display: flex; */
+    /* justify-content: space-between; */
+    gap: 0px;
+    /* align-items: flex-start; */
+  }
+
+  .status-content {
+    max-width: 100%;
+    /* width: 100%; */
+    /* border: 1px solid red; */
+  }
+
+  .status-content-title {
+    /* font-family: "TT Hoves Pro Trial", sans-serif; */
+    /* font-weight: 600; */
+    font-size: 30px;
+    line-height: 37px;
+    /* color: #000; */
+    margin-bottom: 48px;
+    letter-spacing: 0px;
+  }
+
+  /* .status-content-title-span {
+    color: #2741ea;
+  } */
+
+  .status-content-imgBox {
+    /* width: 100%; */
+    /* overflow: hidden; */
+    /* display: flex; */
+    /* justify-content: space-between; */
+    /* gap: 10px; */
+    margin-bottom: 42px;
+  }
+
+  .status-content-imgBox-firstImg:first-child {
+    width: 53.5%;
+    /* border: 1px solid red; */
+  }
+  .status-content-imgBox-firstImg:last-child {
+    width: 45%;
+    /* border: 1px solid red; */
+  }
+
+  /* .status-content-list { */
+  /* max-width: 100%; */
+  /* width: 100%; */
+  /* display: flex; */
+  /* gap: 10px; */
+  /* border: 1px solid red; */
+  /* justify-content: space-between; */
+  /* } */
+
+  .status-content-item {
+    max-width: calc((100% / 3) - 50px);
+    /* width: 100%; */
+    height: 145px;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content: space-between; */
+  }
+
+  .status-content-item:nth-child(2) {
+    max-width: calc((100% / 3) - 50px);
+  }
+
+  .status-content-item-desc {
+    /* font-family: "TT Hoves Pro Trial", sans-serif; */
+    /* font-weight: 400; */
+    margin-bottom: 15px;
+    /* font-size: 22px;
+    line-height: 28px; */
+    /* overflow: hidden; */
+    /* display: -webkit-box;
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
+    -webkit-box-orient: vertical;
+    color: #302f2f; */
+  }
+
+  .status-content-item-number {
+    /* font-family: "TT Hoves Pro Trial", sans-serif; */
+    /* font-weight: 600; */
+    font-size: 38px;
+    line-height: 45px;
+    /* color: #1ac160; */
+  }
+
+  .status-text {
+    position: absolute;
+    bottom: 94%;
+    right: 0;
+    width: auto;
+    transform: rotate(0deg);
+    /* display: flex; */
+    /* font-family: "TT Hoves Pro Trial", sans-serif; */
+    /* align-items: center; */
+    /* font-weight: 600; */
+    font-size: 24px;
+    line-height: 32px;
+    /* color: #2741ea; */
+    margin-top: 0px;
+    /* border: 1px solid red; */
+    /* white-space: nowrap; */
+  }
+
+  /* .status-item:nth-child(4) .status-text {
+    margin-top: 275px;
+  } */
+
+  /* .status-text-img {
+    margin-left: 8px;
+    width: 24px;
+    height: 24px;
+  } */
+
+  /* Status section end */
+}
+
+@media only screen and (max-width: 700px) {
+  /* Status section start */
+
+  .status-list {
+    /* display: flex; */
+    /* flex-direction: column; */
+    gap: 90px;
+    margin-bottom: 105px;
+  }
+
+  /* .status-item { */
+  /* position: relative; */
+  /* border: 1px solid red;
+  } */
+
+  .status-item-keys {
+    /* font-family: "TT Hoves Pro Trial", sans-serif; */
+    /* font-weight: 600; */
+    /* font-size: 18px;
+    line-height: 24px; */
+    /* color: #2741ea; */
+    /* padding: 10px 23px; */
+    /* background: #2741ea1a; */
+    /* border-radius: 10px; */
+    /* display: inline-block; */
+    margin-bottom: 20px;
+  }
+
+  /* .status-item-wrapper { */
+  /* width: 100%; */
+  /* display: flex; */
+  /* justify-content: space-between; */
+  /* gap: 0px; */
+  /* align-items: flex-start; */
+  /* } */
+
+  /* .status-content { */
+  /* max-width: 100%; */
+  /* width: 100%; */
+  /* border: 1px solid red; */
+  /* } */
+
+  .status-content-title {
+    /* font-family: "TT Hoves Pro Trial", sans-serif; */
+    /* font-weight: 600; */
+    font-size: 24px;
+    line-height: 31px;
+    /* color: #000; */
+    margin-bottom: 40px;
+    /* letter-spacing: 0px; */
+  }
+
+  /* .status-content-title-span {
+    color: #2741ea;
+  } */
+
+  .status-content-imgBox {
+    /* width: 100%; */
+    /* overflow: hidden; */
+    /* display: flex; */
+    /* justify-content: space-between; */
+    gap: 12px;
+    flex-wrap: wrap;
+    margin-bottom: 35px;
+  }
+
+  .status-content-imgBox-firstImg:first-child {
+    width: 100%;
+    /* border: 1px solid red; */
+  }
+  .status-content-imgBox-firstImg:last-child {
+    width: 100%;
+    /* border: 1px solid red; */
+  }
+
+  /* .status-content-list { */
+  /* max-width: 100%; */
+  /* width: 100%; */
+  /* display: flex; */
+  /* gap: 10px; */
+  /* border: 1px solid red; */
+  /* justify-content: space-between; */
+  /* } */
+
+  .status-content-item {
+    max-width: calc((100% / 3) - 36px);
+    /* width: 100%; */
+    height: 115px;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content: space-between; */
+  }
+
+  .status-content-item:nth-child(2) {
+    max-width: calc((100% / 3) - 36px);
+  }
+
+  .status-content-item-desc {
+    /* font-family: "TT Hoves Pro Trial", sans-serif; */
+    /* font-weight: 400; */
+    margin-bottom: 15px;
+    font-size: 18px;
+    line-height: 26px;
+    /* overflow: hidden; */
+    /* display: -webkit-box;
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
+    -webkit-box-orient: vertical;
+    color: #302f2f; */
+  }
+
+  .status-content-item-number {
+    /* font-family: "TT Hoves Pro Trial", sans-serif; */
+    /* font-weight: 600; */
+    font-size: 34px;
+    line-height: 42px;
+    /* color: #1ac160; */
+  }
+
+  .status-text {
+    /* position: absolute; */
+    bottom: 96.1%;
+    /* right: 0;
+    width: auto; */
+    /* transform: rotate(0deg); */
+    /* display: flex; */
+    /* font-family: "TT Hoves Pro Trial", sans-serif; */
+    /* align-items: center; */
+    /* font-weight: 600; */
+    /* font-size: 24px;
+    line-height: 32px; */
+    /* color: #2741ea; */
+    /* margin-top: 0px; */
+    /* border: 1px solid red; */
+    /* white-space: nowrap; */
+  }
+
+  .status-item:nth-child(4) .status-text {
+    margin-top: 0px;
+  }
+
+  .status-text-img {
+    margin-left: 8px;
+    width: 20px;
+    height: 20px;
+  }
+
+  /* Status section end */
+}
+
+@media only screen and (max-width: 576px) {
+  /* Status section start */
+
+  .status-list {
+    /* display: flex; */
+    /* flex-direction: column; */
+    gap: 88px;
+    margin-bottom: 95px;
+  }
+
+  /* .status-item { */
+  /* position: relative; */
+  /* border: 1px solid red; */
+  /* } */
+
+  .status-item-keys {
+    /* font-family: "TT Hoves Pro Trial", sans-serif; */
+    /* font-weight: 600; */
+    font-size: 14px;
+    line-height: 22px;
+    /* color: #2741ea; */
+    padding: 10px 21px;
+    /* background: #2741ea1a; */
+    /* border-radius: 10px; */
+    /* display: inline-block; */
+    margin-bottom: 18px;
+  }
+
+  /* .status-item-wrapper { */
+  /* width: 100%; */
+  /* display: flex; */
+  /* justify-content: space-between; */
+  /* gap: 0px; */
+  /* align-items: flex-start; */
+  /* } */
+
+  /* .status-content { */
+  /* max-width: 100%; */
+  /* width: 100%; */
+  /* border: 1px solid red; */
+  /* } */
+
+  .status-content-title {
+    /* font-family: "TT Hoves Pro Trial", sans-serif; */
+    /* font-weight: 600; */
+    /* font-size: 24px;
+    line-height: 31px; */
+    /* color: #000; */
+    margin-bottom: 35px;
+    /* letter-spacing: 0px; */
+  }
+
+  /* .status-content-title-span {
+    color: #2741ea;
+  } */
+
+  .status-content-imgBox {
+    /* width: 100%; */
+    /* overflow: hidden; */
+    /* display: flex; */
+    /* justify-content: space-between; */
+    /* gap: 12px;
+    flex-wrap: wrap; */
+    margin-bottom: 34px;
+  }
+
+  /* .status-content-imgBox-firstImg:first-child { */
+  /* width: 100%; */
+  /* border: 1px solid red; */
+  /* } */
+  /* .status-content-imgBox-firstImg:last-child { */
+  /* width: 100%; */
+  /* border: 1px solid red; */
+  /* } */
+
+  .status-content-list {
+    max-width: 85%;
+    /* width: 100%; */
+    /* display: flex; */
+    margin: 0 auto;
+    row-gap: 24px;
+    flex-wrap: wrap;
+    /* border: 1px solid red; */
+    /* justify-content: space-between; */
+  }
+
+  .status-content-item {
+    max-width: calc((100% / 2) - 30px);
+    /* width: 100%; */
+    height: 120px;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content: space-between; */
+  }
+
+  .status-content-item:nth-child(2) {
+    max-width: calc((100% / 2) - 30px);
+  }
+
+  /* .status-content-item-desc { */
+  /* font-family: "TT Hoves Pro Trial", sans-serif; */
+  /* font-weight: 400; */
+  /* margin-bottom: 15px; */
+  /* font-size: 18px;
+    line-height: 26px; */
+  /* overflow: hidden; */
+  /* display: -webkit-box;
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
+    -webkit-box-orient: vertical;
+    color: #302f2f; */
+  /* } */
+
+  /* .status-content-item-number { */
+  /* font-family: "TT Hoves Pro Trial", sans-serif; */
+  /* font-weight: 600; */
+  /* font-size: 34px;
+    line-height: 42px; */
+  /* color: #1ac160; */
+  /* } */
+
+  .status-text {
+    /* position: absolute; */
+    bottom: 96.3%;
+    /* right: 0;
+    width: auto; */
+    /* transform: rotate(0deg); */
+    /* display: flex; */
+    /* font-family: "TT Hoves Pro Trial", sans-serif; */
+    /* align-items: center; */
+    /* font-weight: 600; */
+    font-size: 20px;
+    line-height: 28px;
+    /* color: #2741ea; */
+    /* margin-top: 0px; */
+    /* border: 1px solid red; */
+    /* white-space: nowrap; */
+  }
+
+  /* .status-item:nth-child(4) .status-text {
+    margin-top: 0px;
+  } */
+
+  .status-text-img {
+    /* margin-left: 8px; */
+    width: 16px;
+    height: 16px;
+  }
+
+  /* Status section end */
+}
+
+@media only screen and (max-width: 375px) {
+  /* Status section start */
+
+  .status-list {
+    /* display: flex; */
+    /* flex-direction: column; */
+    gap: 80px;
+    margin-bottom: 80px;
+  }
+
+  /* .status-item { */
+  /* position: relative; */
+  /* border: 1px solid red; */
+  /* } */
+
+  .status-item-keys {
+    /* font-family: "TT Hoves Pro Trial", sans-serif; */
+    /* font-weight: 600; */
+    font-size: 13px;
+    line-height: 16px;
+    /* color: #2741ea; */
+    padding: 10px 20px;
+    /* background: #2741ea1a; */
+    /* border-radius: 10px; */
+    /* display: inline-block; */
+    margin-bottom: 16px;
+  }
+
+  /* .status-item-wrapper { */
+  /* width: 100%; */
+  /* display: flex; */
+  /* justify-content: space-between; */
+  /* gap: 0px; */
+  /* align-items: flex-start; */
+  /* } */
+
+  /* .status-content { */
+  /* max-width: 100%; */
+  /* width: 100%; */
+  /* border: 1px solid red; */
+  /* } */
+
+  .status-content-title {
+    /* font-family: "TT Hoves Pro Trial", sans-serif; */
+    /* font-weight: 600; */
+    font-size: 18px;
+    line-height: 20px;
+    /* color: #000; */
+    margin-bottom: 32px;
+    /* letter-spacing: 0px; */
+  }
+
+  /* .status-content-title-span {
+    color: #2741ea;
+  } */
+
+  .status-content-imgBox {
+    /* width: 100%; */
+    /* overflow: hidden; */
+    /* display: flex; */
+    /* justify-content: space-between; */
+    /* gap: 12px;
+    flex-wrap: wrap; */
+    margin-bottom: 32px;
+  }
+
+  /* .status-content-imgBox-firstImg:first-child { */
+  /* width: 100%; */
+  /* border: 1px solid red; */
+  /* } */
+  /* .status-content-imgBox-firstImg:last-child { */
+  /* width: 100%; */
+  /* border: 1px solid red; */
+  /* } */
+
+  .status-content-list {
+    max-width: 90%;
+    /* width: 100%; */
+    /* display: flex; */
+    /* margin: 0 auto; */
+    /* row-gap: 24px; */
+    /* flex-wrap: wrap; */
+    /* border: 1px solid red; */
+    /* justify-content: space-between; */
+  }
+
+  .status-content-item {
+    max-width: 100%;
+    /* width: 100%; */
+    height: 90px;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content: space-between; */
+  }
+
+  .status-content-item:nth-child(2) {
+    max-width: 100%;
+  }
+
+  .status-content-item-desc {
+    /* font-family: "TT Hoves Pro Trial", sans-serif; */
+    /* font-weight: 400; */
+    margin-bottom: 12px;
+    font-size: 16px;
+    line-height: 19px;
+    /* overflow: hidden; */
+    /* display: -webkit-box;
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
+    -webkit-box-orient: vertical;
+    color: #302f2f; */
+  }
+
+  .status-content-item-number {
+    /* font-family: "TT Hoves Pro Trial", sans-serif; */
+    /* font-weight: 600; */
+    font-size: 32px;
+    line-height: 38px;
+    /* color: #1ac160; */
+  }
+
+  .status-text {
+    /* position: absolute; */
+    bottom: 96.6%;
+    /* right: 0;
+    width: auto; */
+    /* transform: rotate(0deg); */
+    /* display: flex; */
+    /* font-family: "TT Hoves Pro Trial", sans-serif; */
+    /* align-items: center; */
+    /* font-weight: 600; */
+    font-size: 18px;
+    line-height: 22px;
+    /* color: #2741ea; */
+    /* margin-top: 0px; */
+    /* border: 1px solid red; */
+    /* white-space: nowrap; */
+  }
+
+  /* .status-item:nth-child(4) .status-text {
+    margin-top: 0px;
+  } */
+
+  .status-text-img {
+    /* margin-left: 8px; */
+    width: 12px;
+    height: 12px;
+  }
+
+  /* Status section end */
+}
 
 /* Work section */
 
